@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox prefHeight="266.0" prefWidth="327.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.GradeListViewController">
+   <children>
+      <HBox prefHeight="316.0" prefWidth="327.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="GradeList">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="59.0" text="add">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="59.0" text="Remove">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="59.0" text="Details">
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <HBox prefHeight="252.0" prefWidth="179.0">
+               <children>
+                  <ScrollPane prefHeight="210.0" prefWidth="203.0">
+                     <content>
+                        <TableView prefHeight="236.0" prefWidth="162.0" fx:id="gradeListTable">
+                           <columns>
+                              <TableColumn prefWidth="75.0" sortType="DESCENDING" text="Course" fx:id="courseColumn" />
+                              <TableColumn prefWidth="75.0" text="Grade" fx:id="gradeColumn" />
+                           </columns>
+                        </TableView>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" text="ErrorLabel" textFill="#ec4949" fx:id="errorLabel"/>
+         </children>
+      </HBox>
+   </children>
+</VBox>

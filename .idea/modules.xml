@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GradeList/GradeList.iml" filepath="$PROJECT_DIR$/GradeList/GradeList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GradelistGUI/GradelistGUI.iml" filepath="$PROJECT_DIR$/GradelistGUI/GradelistGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GradelistGui2/GradelistGui2.iml" filepath="$PROJECT_DIR$/GradelistGui2/GradelistGui2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GradelistGui3/GradelistGui3.iml" filepath="$PROJECT_DIR$/GradelistGui3/GradelistGui3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFX-exercises.iml" filepath="$PROJECT_DIR$/JavaFX-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login GUI/login GUI.iml" filepath="$PROJECT_DIR$/login GUI/login GUI.iml" />
+    </modules>
+  </component>
+</project>
