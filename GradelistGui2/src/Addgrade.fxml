@@ -11,7 +11,7 @@
 
 <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="281.0" prefWidth="369.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label alignment="TOP_CENTER" contentDisplay="RIGHT" text="Add Grade" textAlignment="CENTER">
+      <Label alignment="TOP_CENTER" contentDisplay="RIGHT" text="Add Model.Grade" textAlignment="CENTER">
          <font>
             <Font size="24.0" />
          </font>
@@ -32,7 +32,7 @@
       </HBox>
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
-            <Label text="Grade">
+            <Label text="Model.Grade">
                <font>
                   <Font size="24.0" />
                </font>
